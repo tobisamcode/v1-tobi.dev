@@ -16,7 +16,7 @@ export default function Resume(props: ResumeProp) {
 
   return (
     <div className="resume">
-      <Helmet title="My Resume" name="Michael Olatunji Resume" content="Michael Olatunji - Software Engineer Resume" />
+      <Helmet title="My Resume" name="Tobi Adesokan Resume" content="Tobi Adesokan - Software Engineer Resume" />
       <div className="resume_container">
         <div className="top_row">
           <h2>{resume.name}</h2>
@@ -63,7 +63,7 @@ export default function Resume(props: ResumeProp) {
             <section className="experience" key={key}>
               <p className="title">
                 {experience.company} - {experience.role}
-                <span>
+                <span className="uppercase">
                   <br /> {experience.startDate} - {experience.endDate ? experience.endDate : 'CURRENT'}
                 </span>
               </p>
@@ -90,7 +90,7 @@ export default function Resume(props: ResumeProp) {
               <p key={`education-${key}`} className="title">
                 {education.title}
                 <br />
-                <span>
+                <span className="uppercase">
                   {education.startDate ? `${education.startDate} - ` : ''} {education.endDate}
                 </span>
               </p>
@@ -108,7 +108,7 @@ export default function Resume(props: ResumeProp) {
             {resume.certifications.map((certification, key) => (
               <p key={`certification-${key}`} className="title">
                 {certification.title} <br />
-                <span>{certification.date}</span>
+                <span className="uppercase ">{certification.date}</span>
               </p>
             ))}
           </section>

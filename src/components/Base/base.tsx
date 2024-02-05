@@ -24,7 +24,7 @@ export default function Base({ menu }: any) {
           <p>
             <span>
               I'm a <span className="highlight">Software Engineer 🧑🏻‍💻</span> and{' '}
-              <span className="highlight">recent graduate in Mathematics 👨🏻‍🎓</span> with a keen enthusiasm for
+              <span className="highlight">a recent graduate in Mathematics 👨🏻‍🎓</span> with a keen enthusiasm for
               problem-solving. I possess a solid understanding of computer science principles and have demonstrated
               success in delivering code that is both high-quality and scalable.
             </span>
