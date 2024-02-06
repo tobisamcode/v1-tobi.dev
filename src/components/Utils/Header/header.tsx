@@ -63,8 +63,8 @@ export default function Header() {
 
             <div className="social_box">
               <h3>Connect With Me</h3>
-              <a href="tobi.codes22@gmail.com" className="mt-4">
-                myke.olatunji@gmail.com
+              <a className="mt-4" href="mailto: samueloluwatobiloba48@gmail.com">
+                Send Email
               </a>
               <div className="social_icons">
                 <a href="https://github.com/tobisamcode">
