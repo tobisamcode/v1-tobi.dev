@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import Helmet from '../Utils/SEO/helmet';
 import { v4 as uuid } from 'uuid';
 import { Feature } from '../Utils/Feature/feature';
-import img1 from '../../assets/imgs/f-1.png';
-import img2 from '../../assets/imgs/f-2.png';
-import img3 from '../../assets/imgs/f-3.png';
-import img4 from '../../assets/imgs/f-4.png';
+import img1 from '../../assets/imgs/f-1.webp';
+import img2 from '../../assets/imgs/f-2.webp';
+import img3 from '../../assets/imgs/f-3.webp';
+import img4 from '../../assets/imgs/f-4.webp';
 import './features.scss';
 import { Link } from 'react-router-dom';
 
