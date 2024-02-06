@@ -10,29 +10,35 @@ import Projects from './components/Projects/projects';
 import Resume from './components/Resume/resume';
 import Header from './components/Utils/Header/header';
 import PercentageLoader from './components/PercentageLoader/PercentageLoader';
+import Features from './components/Features/features';
+import { UseScrollToTop } from './hooks/useScrollToTop';
 
 function App() {
-  const [menu, setMenu] = useState<string[]>(['active_menu', '', '']);
+  const [menu, setMenu] = useState<string[]>(['active_menu', '', '', '']);
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 1000);
   }, []);
 
   const activeMenu = (id: number) => {
     switch (id) {
       case 0:
-        setMenu(() => ['active_menu', '', '']);
+        setMenu(() => ['active_menu', '', '', '']);
         break;
 
       case 1:
-        setMenu(() => ['', 'active_menu', '']);
+        setMenu(() => ['', 'active_menu', '', '']);
         break;
 
       case 2:
-        setMenu(() => ['', '', 'active_menu']);
+        setMenu(() => ['', '', 'active_menu', '']);
+        break;
+
+      case 3:
+        setMenu(() => ['', '', '', 'active_menu']);
         break;
 
       default:
@@ -52,6 +58,7 @@ function App() {
         </div>
       ) : (
         <BrowserRouter>
+          <UseScrollToTop />
           <div className="mobile_container">
             <Header />
             <div>
@@ -60,6 +67,7 @@ function App() {
                 <Route path="/resume" element={<Resume menu={menu} activeMenu={activeMenu} />} />
                 <Route path="/projects" element={<Projects menu={menu} activeMenu={activeMenu} />} />
                 <Route path="/contact" element={<Contact menu={menu} activeMenu={activeMenu} />} />
+                <Route path="/features" element={<Features menu={menu} activeMenu={activeMenu} />} />
                 <Route element={<Error />} />
               </Routes>
             </div>
@@ -87,6 +95,7 @@ function App() {
                   <Route path="/resume" element={<Resume menu={menu} activeMenu={activeMenu} />} />
                   <Route path="/projects" element={<Projects menu={menu} activeMenu={activeMenu} />} />
                   <Route path="/contact" element={<Contact menu={menu} activeMenu={activeMenu} />} />
+                  <Route path="/features" element={<Features menu={menu} activeMenu={activeMenu} />} />
                   <Route element={<Error />} />
                 </Routes>
               </div>

@@ -42,9 +42,9 @@ export type Resume = {
 const name = 'Tobi Adesokan';
 
 const bio = [
-  'As a Mathematics graduate and Software Engineer, I am passionate about using technology to solve real-world problems. With a strong foundation in Computer Science and Engineering principles and programming languages such as JavaScript, Python, Kotlin, and Java. I am constantly seeking opportunities to learn and apply my skills in new and innovative ways.',
-  'In addition to my academic pursuits, I have completed internships at leading technology companies, where I have gained valuable experience working on complex software projects. I am a team player who enjoys collaborating with others and sharing knowledge.',
-  'I am excited to continue learning and growing as a software engineer, and I am eager to apply my skills and knowledge to tackle challenging problems and make a positive impact on the world.',
+  'As a graduate in Mathematics and a Software Engineer, I am driven by a passion for leveraging technology to tackle real-world challenges. Equipped with a robust understanding of Computer Science and Engineering principles, along with proficiency in programming languages like JavaScript, Python, Kotlin, and Java, I am continuously exploring avenues to expand my knowledge and apply my expertise in novel and inventive ways.',
+  'Beyond my academic endeavors, I have undertaken internships with prominent technology firms, enriching my skill set through involvement in intricate software initiatives. I thrive as a collaborative team member, relishing opportunities to engage with peers and contribute insights.',
+  'I am thrilled to embark on a journey of continual learning and advancement as a software engineer. I am enthusiastic about utilizing my skills and expertise to address complex challenges and contribute positively to our world.',
 ];
 
 const workExperiences: WorkExperience[] = [

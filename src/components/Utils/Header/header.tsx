@@ -41,9 +41,22 @@ export default function Header() {
                   Projects
                 </Link>
               </li>
+
+              <li>
+                <Link to="/features" onClick={toggleMenu}>
+                  Features
+                </Link>
+              </li>
+
               <li>
                 <Link to="/resume" onClick={toggleMenu}>
                   Résumé
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/contact" onClick={toggleMenu}>
+                  Contact
                 </Link>
               </li>
             </ul>
