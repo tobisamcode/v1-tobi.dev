@@ -12,7 +12,7 @@ export default function Base({ menu }: any) {
       <div className="hero">
         <div className="intro_box">
           <h1>
-            Hello! I'm <br /> Tobi Adesokan.
+            Hello! 👋🏻 I'm <br /> Tobi Adesokan.
           </h1>
           <div className="my-pic">
             <div className="gradient"></div>
@@ -23,8 +23,8 @@ export default function Base({ menu }: any) {
         <div className="description">
           <p>
             <span>
-              I'm a <span className="highlight">Software Engineer</span> and{' '}
-              <span className="highlight">recent graduate in Mathematics</span> with a keen enthusiasm for
+              I'm a <span className="highlight">Software Engineer 🧑🏻‍💻</span> and{' '}
+              <span className="highlight">a recent graduate in Mathematics 👨🏻‍🎓</span> with a keen enthusiasm for
               problem-solving. I possess a solid understanding of computer science principles and have demonstrated
               success in delivering code that is both high-quality and scalable.
             </span>
@@ -48,12 +48,29 @@ export default function Base({ menu }: any) {
               </Link>
             </small>
           </li>
-
           <li className={menu[1]}>
             <small>
               01
               <Link to="/projects">
                 <img src={navLine} alt="menu bullet" /> PROJECTS
+              </Link>
+            </small>
+          </li>
+
+          <li className={menu[2]}>
+            <small>
+              02
+              <Link to="/features">
+                <img src={navLine} alt="menu bullet" /> FEATURES
+              </Link>
+            </small>
+          </li>
+
+          <li className={menu[3]}>
+            <small>
+              03
+              <Link to="/contact">
+                <img src={navLine} alt="menu bullet" /> CONTACT
               </Link>
             </small>
           </li>

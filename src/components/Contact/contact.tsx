@@ -11,12 +11,12 @@ interface IProp {
 
 export default function Contact(props: IProp) {
   useEffect(() => {
-    props.activeMenu(2);
+    props.activeMenu(3);
   }, []);
 
   return (
     <div className="contact">
-      <Helmet title="Contact Me" name="Contact Michael Olatunji" content="Reach out to Michael Olatunji" />
+      <Helmet title="Contact Me" name="Contact Tobi Adesokan" content="Reach out to Tobi Adesokan" />
       <Form />
       <div className="go_button_container">
         <Link to="/resume">

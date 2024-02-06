@@ -39,90 +39,99 @@ export type Resume = {
   hobbies: string[];
 };
 
-const name = 'Michael Olatunji';
+const name = 'Tobi Adesokan';
 
 const bio = [
-  'As a Computer Engineering student and Software Engineer, I am passionate about using technology to solve real-world problems. With a strong foundation in Computer Science and Engineering principles and programming languages such as JavaScript, Python, C++ and Java. I am constantly seeking opportunities to learn and apply my skills in new and innovative ways.',
-  'In addition to my academic pursuits, I have completed internships at leading technology companies, where I have gained valuable experience working on complex software projects. I am a team player who enjoys collaborating with others and sharing knowledge.',
-  'I am excited to continue learning and growing as a software engineer, and I am eager to apply my skills and knowledge to tackle challenging problems and make a positive impact on the world.',
+  'As a graduate in Mathematics and a Software Engineer, I am driven by a passion for leveraging technology to tackle real-world challenges. Equipped with a robust understanding of Computer Science and Engineering principles, along with proficiency in programming languages like JavaScript, Python, Kotlin, and Java, I am continuously exploring avenues to expand my knowledge and apply my expertise in novel and inventive ways.',
+  'Beyond my academic endeavors, I have undertaken internships with prominent technology firms, enriching my skill set through involvement in intricate software initiatives. I thrive as a collaborative team member, relishing opportunities to engage with peers and contribute insights.',
+  'I am thrilled to embark on a journey of continual learning and advancement as a software engineer. I am enthusiastic about utilizing my skills and expertise to address complex challenges and contribute positively to our world.',
 ];
 
 const workExperiences: WorkExperience[] = [
   {
-    company: 'JP Morgan Chase & Co',
-    role: 'Software Engineer Intern',
+    company: 'Paybuddy [Full time]',
+    role: 'Frontend & Mobile Engineer',
+    startDate: 'mar 2023',
+    endDate: 'present',
+    achievements: [
+      'Collaborated with a cross-functional agile team of software engineers on the development, and deployment of 2+ web/mobile applications',
+      'Successfully implemented the user interface (UI) and user experience (UX) designs provided by UI/UX designers. This involves creating responsive and visually appealing layouts with a great user experience.',
+      'Collaborated with backend developers and UX designers to meet project goals and create compelling user experience.',
+      "Excellently implemented state management solutions, such as Redux, Zustand, and React-Query, to manage the application's data and ensure it is consistent and easily accessible.",
+      'Successfully conducted regular code reviews and provided constructive feedback to ensure code quality and adherence to coding standards',
+      'Stayed abreast of the latest frontend technologies and frameworks, incorporating them into the development process to enhance efficiency and maintainability.',
+      'Ensured seamless user experiences across various devices by implementing responsive design principles, and accommodating a diverse user base.',
+      'Employed Git for version control, facilitating collaboration, and ensuring codebase integrity.',
+      'Utilized the following technologies: JavaScript, Typescript, React Native, NodeJs, Redux, Zustand, React-Query.',
+    ],
+  },
+  {
+    company: 'Wave5wireless Limited [Contact]',
+    role: 'Frontend Engineer',
+    startDate: 'DEC 2023',
+    endDate: 'JAN 2023',
+    achievements: [
+      "Successfully worked with a team of 8 (two Product Designers, three Frontend Developers, a Product Manager, and two Backend Engineers) in developing and deploying a medium-scale real estate application and admin dashboard for the company's subsidiary.",
+      'Successfully implemented the user interface (UI) and user experience (UX) designs for the admin and the business dashboard provided by UI/UX designers.',
+      'Maintained comprehensive documentation for the frontend codebase, ensuring a smooth onboarding process for new developers.',
+      'Leveraged cutting-edge frontend technologies, including HTML5, CSS3, TailwindCSS, JavaScript (ES6+), and popular frameworks such as React.js, to build dynamic and interactive user interfaces.',
+      'Utilized the following technologies: JavaScript, Typescript, NextJS, ReactJS, and Redux',
+    ],
+  },
+  {
+    company: 'Letbud [Contact]',
+    role: 'Frontend Engineer',
     startDate: 'JUN 2023',
-    endDate: 'AUG 2023',
+    endDate: 'DEC 2023',
     achievements: [
-      'Co-Led a team of 3 interns, designing and developing an end-to-end social network graph project for employees to find how they are connected to other people within the firm, improving employee experience.',
-      'Developed a Batch Processing application which transforms Oracle SQL data into Neo4j Graph data using Spring Batch',
-      'Developed a RESTful backend service to compute the shortest path, all paths, and path recommendations in the employee network',
-      'Implemented draggable and interactive graphs visualization for the social network'
+      "Successfully worked with a team of 4 (two Product Designers, a Frontend Developer, and a Backend Engineer) in developing and deploying a medium-scale real estate application and admin dashboard for the company's subsidiary.",
+      'Successfully implemented the user interface (UI) and user experience (UX) designs provided by UI/UX designers.',
+      'Maintained comprehensive documentation for the frontend codebase, ensuring a smooth onboarding process for new developers.',
+      'Identified and resolved frontend-related issues through troubleshooting and debugging, ensuring a high-quality end product.',
+      'Leveraged cutting-edge frontend technologies, including HTML5, CSS3, TailwindCSS, JavaScript (ES6+), and popular frameworks such as React.js, to build dynamic and interactive user interfaces.',
+      'Utilized the following technologies: JavaScript, Typescript, Next, NodeJs, Redux, and React-Query',
     ],
   },
   {
-    company: 'Cruise LLC',
-    role: 'Software Engineer Intern',
-    startDate: 'SEP 2022',
-    endDate: 'DEC 2022',
+    company: 'IT 99 Solutions [Contract]',
+    role: 'Frontend Engineer',
+    startDate: 'may 2022',
+    endDate: 'sep 2022',
     achievements: [
-      'Helped built the world’s most advanced self-driving vehicles to safely connect people with places, things, and experiences they care about',
-      'Collaborated alongside multiple teams to bring forth multiple deliverables that improved end-to-end metrics gathering, enabling the Simulation department to measure the impact of its various efforts on key success metrics',
-      'Contributed to Cruise AI Simulation Platform Tools which empowers AV engineers to run simulations at scale, accelerating the development of Autonomous Vehicles by more than 4x',
-      'Implemented NPCs objective profile conversion features for Planning Simulation (PSIM) and Matrix on the Scenario Editor Software, which prevent data loss while editing scenarios and maintain states between NPCs objective profiles',
+      'Identified and resolved frontend-related issues through troubleshooting and debugging, ensuring a high-quality end product.',
+      'Successfully implemented responsive design principles, ensuring optimal user experience across various devices and screen sizes.',
+      'Worked with a team of 3 (a Product Designer, a Frontend Developer, and two Backend Engineer) and I maintained the user-facing of an e-commerce web application using Reactjs.',
+      'Actively participated in agile development methodologies, attending sprint planning, daily stand-ups, and retrospective meetings.',
+      'Participated in the full software development lifecycle, from initial concept to deployment and maintenance.',
+      'Utilized the following technologies: JavaScript, Typescript, Next, NodeJs, Redux, GSAP, and React-Query,',
     ],
   },
   {
-    company: 'JP Morgan Chase & Co',
-    role: 'Software Engineer Intern',
-    startDate: 'JUN 2022',
-    endDate: 'AUG 2022',
+    company: 'DotEightPlus [Remote]',
+    role: 'Junior Frontend Developer',
+    startDate: 'may 2021',
+    endDate: 'mar 2022',
     achievements: [
-      'Designed and developed the prototype of a new Global Search Platform that enables searching of internal trades data to make search speed at least 10x faster and flexible search queries possible using Spring Boot and Elasticsearch',
-      'Configured and deployed Kafka Connect (sink connector) to ship data from the Kafka Cluster to the Elasticsearch Cluster',
-      'Automated the visualization and analytics of data as they are shipped in real-time using Kibana',
+      "Worked with a team of 5 (two Product Designers, two Frontend Engineers, and a Backend Engineer) in developing a medium-scale estate management application and admin dashboard for the company's subsidiary.",
+      'Successfully developed a new version of the company’s website using Vue, Sass, and TailwindCSS.',
+      'Utilized Vuex for state management across the components.',
+      'Participated in code reviews to ensure code quality, correctness, and efficient solutions to problems.',
+      'Maintained an organized workflow using GitHub.',
+      'Utilized the following technologies: Vuejs · Vuex · Sassy Cascading Style Sheets (SCSS) · Git · Tailwind CSS',
     ],
   },
   {
-    company: 'Block Knowledge',
-    role: 'Software and DevOps Engineer',
-    startDate: 'DEC 2020',
-    endDate: 'DEC 2021',
-    achievements: [
-      'Designed the database and system architecture for Kadogo (turn everyday purchases into charitable donations)',
-      'Led the kadogo backend team of 2 - 3 people',
-      'Built the entire backend of the MVP version, which raised $100,000 in funding',
-      'Optimized the backend to leverage on cloud services like serverless functions and messaging systems to increase performance and prevent downtime of the critical part of the application',
-      'Developed APIs for the mobile application, merchant and NGO dashboard',
-      'Facilitated the use of continuous integration and continuous deployment tools to reduce code shipping time and increase collaboration and productivity among the developers',
-      'Implemented the spare change and cashback donation algorithms',
-      'Set up Autoscaling, Load balancers and failover servers on AWS for development, staging, production environment',
-    ],
-  },
-  {
-    company: 'Powerjamb',
-    role: 'Software and DevOps Engineer Intern',
-    startDate: 'JUN 2019',
-    endDate: 'SEP 2020',
-    achievements: [
-      'Managed infrastructure as code using AWS CloudFormation',
-      'Redesigned the landing page to 3x faster',
-      'Developed a web mobile-first examination application',
-      'Created Dockerfiles and built docker images for the microservices to run on Kubernetes cluster',
-      'Created and managed the deployment of microservices cluster to EKS using Docker, Kubernetes, Helm, and Jenkins',
-      'Experience with Amazon services such as AWS, VPC, S3, EC2 Relational Database (RDS), Document DB, Elastic Load Balancing, Autoscaling, ECR, ECS, Lambda, IAM, EKS, Beanstalk, and CloudFormation',
-    ],
-  },
-  {
-    company: 'Soft Quest Incorporated',
+    company: 'HNG [Remote]',
     role: 'Software Enginer Intern',
-    startDate: 'SEP 2018',
-    endDate: 'MAR 2019',
+    startDate: 'Aug 2021',
+    endDate: 'Oct 2021',
     achievements: [
-      'Produced clean, validation-ready code for given project needs',
-      'Developed a basic Banking Web Application with Angular and PHP',
-      'Developed a Car Racing game using JavaScript and HTML5 canvas',
-      'Built an advanced Scientific Calculator, Inventory System, Timer, Countdown on the Web and many other self-development Projects',
+      'Successfully worked on difficult tasks and problems in the two projects (Live Chat Application) and the Stack Application Clone and also worked with new technologies like centrifugal and single page application SPA',
+      'Shared knowledge with team members through knowledge-sharing sessions, fostering a collaborative and learning-oriented environment.',
+      'Designed and implemented the API logic and flexible database models. Integrated Cloudinary for image uploads and Websockets to build a real-time admin dashboard.',
+      'Gained hands-on experience in database management, utilizing technologies like MongoDB and MySQL to ensure efficient data storage and retrieval.',
+      'Proficiently used Git for version control, ensuring a streamlined collaborative development process within the team.',
+      'Utilized the following technologies: JavaScript, NodeJs, ExpressJs, ReactJs, MongoDB, and (Sequelize ORM).',
     ],
   },
 ];
@@ -130,50 +139,61 @@ const workExperiences: WorkExperience[] = [
 const skills: Skill[] = [
   {
     title: 'Languages',
-    body: ['JavaScript', 'TypeScript', 'Python', 'C++', 'Java', 'Go'],
+    body: ['JavaScript', 'TypeScript', 'Python', 'Kotlin', 'Java'],
   },
   {
     title: 'Frameworks/Libraries',
-    body: ['React', 'Vue', 'Nodejs', 'Nestjs', 'Nextjs', 'GraphQL', 'Flask'],
+    body: [
+      'React',
+      'Vue',
+      'React Native',
+      'Nodejs',
+      'Next',
+      'Redux',
+      'Redux-Toolkit',
+      'Zustand',
+      'Mobx',
+      'React-Query',
+    ],
   },
   {
     title: 'Storages/Databases',
-    body: ['SQL', 'PostgreSQL', 'MongoDB', 'Kafka', 'ElasticSearch', 'Neo4j'],
+    body: ['SQL', 'MongoDB', 'Kafka'],
   },
   {
     title: 'Tooling',
-    body: ['Linux', 'Git', 'Docker', 'Kubernetes', 'AWS', 'GCP'],
+    body: ['Linux', 'Git', 'Vercel', 'Netlify', 'Docker', 'Kubernetes', 'AWS', 'GCP'],
   },
 ];
 
 const educations: Education[] = [
   {
-    title: 'B.Sc Computer Engineering at Obafemi Awolowo University',
-    endDate: 'MAY 2025',
+    title: 'B.Sc Mathematics at University of Lagos',
+    endDate: 'Dec 2023',
     relevant: [
       'Introduction to Computing',
       'Introduction to Programming',
-      'Digital Computer Systems',
       'Calculus I & II & III',
       'Vector Analysis',
+      'Data Structures & Algorithms',
     ],
   },
   {
-    title: 'Smith International Baptist Academy, Ogbomoso',
-    startDate: 'SEP 2012',
-    endDate: 'JUL 2018',
+    title: 'Exblun College, Ogun state',
+    startDate: 'SEP 2011',
+    endDate: 'JUL 2016',
     relevant: [],
   },
 ];
 
 const certifications: Certification[] = [
   {
-    title: 'Cloud DevOps Engineer Nanodegree, Udacity',
+    title: 'ReactJS Zero To Mastery by Andrei. - Udemy',
     date: 'MAY 2020',
   },
   {
-    title: 'Microsoft Certified: Azure Fundamentals (AZ – 900)',
-    date: 'JUL 2020',
+    title: 'Python for Data Science - Coursera',
+    date: 'JAN 2020',
   },
 ];
 
@@ -187,12 +207,12 @@ const languages: Language[] = [
     level: 'PROFICIENT',
   },
   {
-    name: 'Spanish',
+    name: 'French',
     level: 'BEGINNER',
   },
 ];
 
-const hobbies = ['Learning', 'Playing the piano', 'Lifting', 'Football/Soccer'];
+const hobbies = ['Learning', 'Playing the piano', 'Coding', 'Football/Soccer'];
 
 export const resume: Resume = {
   name,

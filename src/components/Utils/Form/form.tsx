@@ -64,7 +64,7 @@ export default class MyForm extends React.Component<any, IState> {
     const { status, loading } = this.state;
     return (
       <div>
-        <form name="contact" method="post" action="https://formspree.io/f/xyybjnyq" onSubmit={this.submitForm}>
+        <form name="contact" method="post" action="https://formspree.io/f/xdoqewpd" onSubmit={this.submitForm}>
           <input type="hidden" name="form-name" value="contact" />
           <div className="form_section">
             <label>

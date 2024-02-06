@@ -1,0 +1,21 @@
+.feature_showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.go_button_container {
+  display: none;
+}
+
+@media (max-width: 993px) {
+  .feature_showcase {
+    grid-template-columns: 1fr;
+    margin: 40px 0;
+  }
+
+  .go_button_container {
+    display: flex;
+    margin-bottom: 30px;
+  }
+}

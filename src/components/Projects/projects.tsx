@@ -25,81 +25,114 @@ type Prop = {
 const projects: Project[] = [
   {
     id: uuid(),
-    title: 'imyke.dev',
+    title: 'v1-tobi.dev 🌍',
     description: 'My Portfolio Website',
-    github: 'https://github.com/imykie/imyke.dev',
-    live: 'https://imyke.dev',
-    stack: 'React + TypeScript + SASS',
+    github: 'https://github.com/tobisamcode/v1-tobi.dev',
+    live: '',
+    stack: 'React + TypeScript + SASS + TailwindCSS',
     isPrivate: false,
-    isLive: true,
+    isLive: false,
   },
+
   {
     id: uuid(),
-    title: 'Afide',
-    description: 'Agricultural financial inclusion for daily earners',
+    title: 'Chisom Nwokwu 🌍',
+    description: 'A Portfolio Website built for a software engineer at Microsoft',
     github: '',
-    live: 'https://afide.ng',
-    stack: 'Vue + Nodejs + MySQL',
+    live: 'https://www.chisomnwokwu.com/',
+    stack: 'React + JavaScript + React Router + GSAP',
     isPrivate: true,
     isLive: true,
   },
   {
     id: uuid(),
-    title: 'Brandzoos',
-    description: 'A platform for brands and shoppers',
-    github: '',
-    live: 'https://brandzoos.com',
-    stack: 'React + TypeScript + GraphQL + Nestjs + Postgres',
-    isPrivate: true,
+    title: 'Covid-19 Stat Tracker 💹',
+    description: 'A tracker that displays the latest stats of Covid-19 Virus',
+    github: 'https://github.com/tobisamcode/iQube-frontend-assessment2',
+    live: 'https://i-qube-frontend-assessment2.vercel.app/',
+    stack: 'React + JavaScript + ChartJS',
+    isPrivate: false,
+    isLive: true,
+  },
+
+  {
+    id: uuid(),
+    title: 'DMD-WEB 🌍',
+    description: 'A Portfolio Website built for a creative digital product designer',
+    github: 'https://github.com/tobisamcode/dmd-web',
+    live: 'https://dmd-web.vercel.app/',
+    stack: 'React + TypeScript + Next + TailwindCSS',
+    isPrivate: false,
     isLive: true,
   },
   {
     id: uuid(),
-    title: 'Site Map Builder',
-    description: 'A sitemap builder',
-    github: 'https://github.com/imykie/sitemap-builder',
+    title: 'Movie App 🎬',
+    description: 'An Application that displays the latest trends of movies',
+    github: 'https://github.com/tobisamcode/nuxt-movie-app',
     live: '',
-    stack: 'Go',
+    stack: 'Vue + Vuex + Nuxt + Axios + themoviedb.com',
     isPrivate: false,
     isLive: false,
   },
   {
     id: uuid(),
-    title: 'Task',
-    description: 'A CLI task manager',
-    github: 'https://github.com/imykie/task',
+    title: 'E-commerce REST API 💰',
+    description: 'A real-life e-commerce 💰🤑application',
+    github: '',
     live: '',
-    stack: 'Go',
-    isPrivate: false,
+    stack: 'nodejs + Express + Mongodb',
+    isPrivate: true,
     isLive: false,
   },
   {
     id: uuid(),
-    title: 'Tic Tac Toe',
-    description: 'Tic Tac Toe game',
-    github: 'https://github.com/imykie/tic-tac-toe-go',
+    title: 'Chat Bot 💬',
+    description: 'A restaurant Chat Bot Application .',
+    github: 'https://github.com/tobisamcode/chat-bot',
+    live: 'chatbot-assessment.onrender.com',
+    stack: 'Nodejs + Express + Web socket + Mongodb',
+    isPrivate: false,
+    isLive: true,
+  },
+  {
+    id: uuid(),
+    title: 'E-Clothing 👔',
+    description: 'A Full Stack E-commerce Application built with Reactjs and stripe integration for payment',
+    github: 'https://github.com/tobisamcode/e-clothing',
     live: '',
-    stack: 'Go',
+    stack: 'React + Firebase/Forestore + Stripe ',
     isPrivate: false,
     isLive: false,
   },
   {
     id: uuid(),
     title: 'Capstone Project',
-    description: 'Cloud DevOps Nanodegree Capstone Project (Udacity)',
-    github: 'https://github.com/imykie/Cloud_DevOps_Nanodegree_Capstone',
+    description: 'A Fullstack shopping cart 🛒 Application - Node Shop Capstone Project (Udemy)',
+    github: 'https://github.com/tobisamcode/nodeshop',
     live: '',
-    stack: 'AWS + Jenkins + Docker + Kubernetes + Python',
+    stack: 'EJS + JavaScript + Express + CSS',
     isPrivate: false,
     isLive: false,
   },
   {
     id: uuid(),
-    title: 'Operationalized ML API',
-    description: 'Automated CI-CD pipeline for ML API that predicts housing price in Boston',
-    github: 'https://github.com/imykie/operationalize-ML-api',
+    title: 'Book Service API 📚',
+    description: 'A Book service API ',
+    github: 'https://github.com/tobisamcode/book-service-api',
     live: '',
-    stack: 'Flask + AWS + Jenkins + Docker + Kubernetes + Circle CI',
+    stack: 'Node + Express + Mysql(Sequelize) + TypeScript',
+    isPrivate: false,
+    isLive: false,
+  },
+
+  {
+    id: uuid(),
+    title: 'Blog Service API ',
+    description: 'A simple Blog service API ',
+    github: 'https://github.com/tobisamcode/blog-service-api',
+    live: '',
+    stack: 'Node + Express + Mongodb + TypeScript',
     isPrivate: false,
     isLive: false,
   },
@@ -112,8 +145,8 @@ export default function Projects(props: Prop) {
 
   return (
     <div className="project">
-      <Helmet title="My Projects" name="Selected Projects" content="Selected Michael Olatunji's Projects" />
-      <div className="group portfolio_showcase">
+      <Helmet title="My Projects" name="Selected Projects" content="Selected Tobi Adesokan's Projects" />
+      <div className=" portfolio_showcase">
         {projects.map((project) => (
           <Project key={project.id} {...project} />
         ))}
@@ -125,8 +158,8 @@ export default function Projects(props: Prop) {
             <b>➜ </b> Home
           </button>
         </Link>
-        <Link to="/resume">
-          <button>Résumé ➜ </button>
+        <Link to="/features">
+          <button>Features ➜ </button>
         </Link>
       </div>
     </div>
