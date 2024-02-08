@@ -26,16 +26,6 @@ interface Feature {
 const Features_Data: Feature[] = [
   {
     id: uuid(),
-    title: 'Facebook - Legit.ng',
-    sub_title: 'Young man gets first class from UNILAG',
-    date: 'jan 26, 2024',
-    img: img1,
-    link:
-      'https://web.facebook.com/legitngnews/posts/pfbid02d9onyG5hdFTifQ2UzDxzy3eqrjf9y2ZWB1T5f4tBcwLSqFBnDxavietHoMxXPLJul',
-  },
-
-  {
-    id: uuid(),
     title: 'Legit.ng',
     sub_title: 'Tobi Adesokan: Student Makes First Class in Pure Mathematics, Graduates from University of Lagos',
     date: 'jan 25, 2024',
